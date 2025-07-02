@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 973
+    y: 24
     width: 1197
     height: 373
   m_SerializedDataModeController:
@@ -396,7 +396,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ccbc0000
     m_LastClickedID: 48332
-    m_ExpandedIDs: 00000000ccbc000000ca9a3b
+    m_ExpandedIDs: 0000000002aa0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -425,7 +425,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ccbc0000
+    m_ExpandedIDs: 0000000002aa0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -504,8 +504,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1958
-    y: 79
+    x: 1959
+    y: 24
     width: 601
     height: 1267
   m_SerializedDataModeController:
@@ -554,7 +554,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 485
     height: 868
   m_SerializedDataModeController:
@@ -619,8 +619,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 486
-    y: 79
+    x: 487
+    y: 24
     width: 1470
     height: 868
   m_SerializedDataModeController:
@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 546.0953, y: -159.68918, z: 470.10883}
+    m_Target: {x: 128.74911, y: -4539.6685, z: 4186.479}
     speed: 2
     m_Value: {x: 546.0953, y: -159.68918, z: 470.10883}
   m_RenderMode: 0
@@ -1225,11 +1225,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2420989, y: 0.44674316, z: -0.12696324, w: 0.85186607}
+    m_Target: {x: 0.3932994, y: 0.020705808, z: -0.008769171, w: 0.9189532}
     speed: 2
-    m_Value: {x: 0.24337804, y: 0.44655517, z: -0.12763405, w: 0.8515076}
+    m_Value: {x: 0.24209888, y: 0.44674313, z: -0.12696323, w: 0.85186607}
   m_Size:
-    m_Target: 504.53897
+    m_Target: 3535.7327
     speed: 2
     m_Value: 504.53897
   m_Ortho:
@@ -1387,8 +1387,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1198
-    y: 973
+    x: 1199
+    y: 24
     width: 758
     height: 373
   m_SerializedDataModeController:

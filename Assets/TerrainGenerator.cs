@@ -1,5 +1,6 @@
 using Sirenix.OdinInspector;
 using UnityEngine;
+using UnityEngine.Serialization;
 #if UNITY_EDITOR
 using UnityEditor;
 using System.IO;
@@ -7,29 +8,37 @@ using System.IO;
 
 public class TerrainGenerator : MonoBehaviour
 {
-    [SerializeField] private bool showVertices;
+    [Header("Generation Seed")]
+    public int seed;
+    [Space(10)]
     
+    [Header("Grid Size")]
     public Vector3Int gridSize = new(100, 0, 100);
+    [Space(5)]
     
-    public Material terrainMaterial;
+    [Header("General Settings")]
+    [SerializeField] private Material terrainMaterial;
+    [SerializeField] private AnimationCurve noiseCurve;
+    [SerializeField] private float scale = 1f;
+    [SerializeField] private int width;
+    [SerializeField] private int depth;
+    [SerializeField] private float heightMultiplier;
+    [SerializeField] private float xPosOffset;
+    [SerializeField] private float zPosOffset;
+    [SerializeField] private bool enableFallOff;
     
-    public float scale = 1f;
-    public int width;
-    public int depth;
-    public float perlinScale;
-    public float heightMultiplier;
+    [Header("Noise Settings")]
+    [SerializeField] private float perlinScale;
+    [SerializeField] private int octaves = 1;
+    [SerializeField] private float lacunarity = 2f;
+    [SerializeField] private float persistence = 0.5f;
     
-    public float xOffset;
-    public float zOffset;
-
-    public int octaves = 1;
-    public float lacunarity = 2f;
-    public float persistence = 0.5f;
-    
-
     private Mesh mesh;
     private Vector3[] vertices;
     private int[] triangles;
+    private System.Random prng;
+    private float xPerlinOffset;
+    private float zPerlinOffset;
     
     private void Start()
     {
@@ -44,13 +53,21 @@ public class TerrainGenerator : MonoBehaviour
     
     private void GenerateChunkGrid(Vector3Int gridSize)
     {
-        ClearMesh();
+        prng = new System.Random(seed);
 
-        for (int z = 0; z < gridSize.z; z++)
+        xPerlinOffset = prng.Next(-100000, 100000);
+        zPerlinOffset = prng.Next(-100000, 100000);
+        
+        ClearMesh();
+        
+        int halfX = gridSize.x / 2;
+        int halfZ = gridSize.z / 2;
+        
+        for (int z = -halfZ; z < gridSize.z - halfZ; z++)
         {
-            for (int x = 0; x < gridSize.x; x++)
+            for (int x = -halfX; x < gridSize.x - halfX; x++)
             {
-                Vector3 chunkOffset = new Vector3(x * xOffset, 0f, z * zOffset);
+                Vector3 chunkOffset = new Vector3(x * xPosOffset, 0f, z * zPosOffset);
                 
                 Mesh chunkMesh = GenerateMesh(chunkOffset);
                 GameObject chunkObject = CreateMeshObject(chunkMesh, chunkOffset);
@@ -60,7 +77,6 @@ public class TerrainGenerator : MonoBehaviour
         }
     }
     
-
     [Button] [HorizontalGroup] [GUIColor("Red")]
     private void ClearMesh()
     {
@@ -89,10 +105,10 @@ public class TerrainGenerator : MonoBehaviour
                     float frequency = Mathf.Pow(lacunarity, o);
                     float amplitude = Mathf.Pow(persistence, o);
                     
-                    yPos += Mathf.PerlinNoise((x + position.x) / perlinScale * frequency, (z + position.z) / perlinScale * frequency) * amplitude;
+                    yPos += Mathf.PerlinNoise((x + position.x + xPerlinOffset) / perlinScale * frequency, (z + position.z + zPerlinOffset) / perlinScale * frequency) * amplitude;
                 }
                 
-                yPos *= heightMultiplier;
+                yPos *= heightMultiplier * noiseCurve.Evaluate(yPos);
                 
                 vertices[i] = new Vector3(scale * x, yPos, scale * z);
                 i++;
@@ -142,52 +158,5 @@ public class TerrainGenerator : MonoBehaviour
         obj.transform.position = position;
         
         return obj;
-    }
-    
-    #region assetSave
-#if UNITY_EDITOR
-    [Button("Generate & Save Prefab")] [GUIColor("Blue")]
-    private void GenerateAndSaveAsPrefab()
-    {
-        //GenerateMesh(); // make sure we generate fresh
-
-        // Ensure folders exist
-        Directory.CreateDirectory("Assets/SavedMeshes");
-        Directory.CreateDirectory("Assets/Prefabs");
-
-        // Save mesh asset
-        string meshPath = $"Assets/SavedMeshes/{name}_Mesh.asset";
-        AssetDatabase.CreateAsset(Object.Instantiate(mesh), meshPath);
-        AssetDatabase.SaveAssets();
-
-        // Create GameObject using the saved mesh
-        GameObject tempGO = new GameObject($"{name}_Generated");
-        MeshFilter mf = tempGO.AddComponent<MeshFilter>();
-        mf.sharedMesh = AssetDatabase.LoadAssetAtPath<Mesh>(meshPath);
-        tempGO.AddComponent<MeshRenderer>();
-        MeshCollider col = tempGO.AddComponent<MeshCollider>();
-        col.sharedMesh = mf.sharedMesh;
-
-        // Save as prefab
-        string prefabPath = $"Assets/Prefabs/{name}_Prefab.prefab";
-        PrefabUtility.SaveAsPrefabAsset(tempGO, prefabPath);
-
-        // Cleanup
-        DestroyImmediate(tempGO);
-
-        Debug.Log($"Mesh saved to: {meshPath}\nPrefab saved to: {prefabPath}");
-    }
-#endif
-    #endregion
-    
-    private void OnDrawGizmos()
-    {
-        if (vertices != null && showVertices)
-        {
-            foreach (Vector3 pos in vertices)
-            {
-                Gizmos.DrawSphere(pos, 0.1f);
-            }
-        }
     }
 }
