@@ -27,6 +27,12 @@ public class TerrainGenerator : MonoBehaviour
     [SerializeField] private float zPosOffset;
     [SerializeField] private bool enableFallOff;
     
+    [SerializeField] private bool useClamping;
+    [ShowIf("useClamping")]
+    [SerializeField] private float minClamp = 0f;
+    [ShowIf("useClamping")]
+    [SerializeField] private float maxClamp = 5f;
+    
     [Header("Noise Settings")]
     [SerializeField] private float perlinScale;
     [SerializeField] private int octaves = 1;
@@ -100,15 +106,39 @@ public class TerrainGenerator : MonoBehaviour
             {
                 float yPos = 0;
 
+                float worldPosX = position.x + x * scale;
+                float worldPosZ = position.z + z * scale;
+
                 for (int o = 0; o < octaves; o++)
                 {
                     float frequency = Mathf.Pow(lacunarity, o);
                     float amplitude = Mathf.Pow(persistence, o);
+
+                    float sampleX = (x + position.x + xPerlinOffset) / perlinScale * frequency;
+                    float sampleZ = (z + position.z + zPerlinOffset) / perlinScale * frequency;
                     
-                    yPos += Mathf.PerlinNoise((x + position.x + xPerlinOffset) / perlinScale * frequency, (z + position.z + zPerlinOffset) / perlinScale * frequency) * amplitude;
+                    yPos += Mathf.PerlinNoise(sampleX, sampleZ) * amplitude;
+                }
+
+                yPos *= noiseCurve.Evaluate(yPos);
+
+                if (useClamping)
+                {
+                    yPos = Mathf.Clamp(yPos, minClamp, maxClamp);
                 }
                 
-                yPos *= heightMultiplier * noiseCurve.Evaluate(yPos);
+                if (enableFallOff)
+                {
+                    float falloff = EvaluateGlobalFallOff(worldPosX, worldPosZ);
+                    yPos -= falloff;
+
+                    if (useClamping)
+                    {
+                        yPos = Mathf.Clamp(yPos, minClamp, maxClamp);
+                    }
+                }
+                
+                yPos *= heightMultiplier;
                 
                 vertices[i] = new Vector3(scale * x, yPos, scale * z);
                 i++;
@@ -146,6 +176,20 @@ public class TerrainGenerator : MonoBehaviour
         mesh.RecalculateBounds();
         
         return mesh;
+    }
+
+    private float EvaluateGlobalFallOff(float worldX, float worldZ)
+    {
+        float maxDistance = (gridSize.x * xPosOffset) / 2f;
+        float distance = new Vector2(worldX, worldZ).magnitude;
+        
+        float normalizedDistance = distance / maxDistance;
+        normalizedDistance = Mathf.Clamp01(normalizedDistance);
+
+        float a = 3f; //Steepness
+        float b = 2.2f; // Curve sharpness
+        
+        return Mathf.Pow(normalizedDistance, a) / (Mathf.Pow(normalizedDistance, a) + Mathf.Pow(b - b * normalizedDistance, a));
     }
 
     private GameObject CreateMeshObject(Mesh mesh, Vector3 position)
