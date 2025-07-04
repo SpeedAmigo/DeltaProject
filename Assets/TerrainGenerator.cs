@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -18,6 +19,7 @@ public class TerrainGenerator : MonoBehaviour
     
     [Header("General Settings")]
     [SerializeField] private Material terrainMaterial;
+    [SerializeField] private List<Layer> materialLayers = new();
     [SerializeField] private AnimationCurve noiseCurve;
     [SerializeField] private float scale = 1f;
     [SerializeField] private int width;
@@ -97,7 +99,7 @@ public class TerrainGenerator : MonoBehaviour
         mesh = new Mesh();
         
         vertices = new Vector3[(width + 1) * (depth + 1)];
-
+        
         int i = 0;
         
         for (int z = 0; z <= depth; z++)
@@ -149,7 +151,7 @@ public class TerrainGenerator : MonoBehaviour
         
         int vertex = 0;
         int triangleIndex = 0;
-
+        
         for (int z = 0; z < depth; z++)
         {
             for (int x = 0; x < width; x++)
@@ -169,9 +171,16 @@ public class TerrainGenerator : MonoBehaviour
             vertex++;
         }
         
+        Vector2[] uvs = new Vector2[vertices.Length];
+        for (int u = 0; u < uvs.Length; u++)
+        {
+            uvs[u] = new Vector2(vertices[u].x, vertices[u].z);
+        }
+        
         mesh.Clear();
         mesh.vertices = vertices;
         mesh.triangles = triangles;
+        mesh.uv = uvs;
         mesh.RecalculateNormals();
         mesh.RecalculateBounds();
         
@@ -203,4 +212,11 @@ public class TerrainGenerator : MonoBehaviour
         
         return obj;
     }
+}
+
+[System.Serializable]
+public class Layer
+{
+    public Texture2D texture;
+    [Range(0f,1f)] public float startHeight;
 }

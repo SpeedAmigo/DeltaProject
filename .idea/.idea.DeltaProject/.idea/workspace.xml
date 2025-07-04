@@ -5,8 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cc78e51-c6a1-47c2-9436-1607e5eb8048" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DeltaProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DeltaProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TerrainGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TerrainGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TerrainMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Dry01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Dry01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Dry03.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Dry03.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass05.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass05.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Ground02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Ground02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Lava.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Lava.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Mars.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Mars.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Salt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Salt.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Snow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Snow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel04.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/NewLayer.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/NewLayer.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +111,8 @@
       <updated>1751293713188</updated>
       <workItem from="1751293715075" duration="5736000" />
       <workItem from="1751486808823" duration="5666000" />
-      <workItem from="1751538696222" duration="5193000" />
+      <workItem from="1751538696222" duration="7146000" />
+      <workItem from="1751646185849" duration="2001000" />
     </task>
     <servers />
   </component>
