@@ -6,12 +6,605 @@
   <component name="ChangeListManager">
     <list default="true" id="8cc78e51-c6a1-47c2-9436-1607e5eb8048" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DeltaProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DeltaProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/DemoSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/DemoSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Brown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Brown.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Cyan.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Cyan.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Green1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Green1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Green2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Green2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Grey1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Grey1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Grey2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Grey2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Grey3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Grey3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Grey4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Grey4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Orange.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Orange.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Purple.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Purple.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_White.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/ProBuilder Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/ProBuilder Data/Prototype Materials.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/ProBuilder Data/Prototype Materials.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_blue1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_blue1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_blue2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_blue2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_blue3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_blue3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_brown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_brown.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_cyan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_cyan.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_green1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_green1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_green2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_green2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_grey1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_grey1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_grey2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_grey2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_grey3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_grey3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_grey4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_grey4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_white.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures/Prototype Grid/prototype_512x512_yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/FirstPersonController.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/FirstPersonController/CircleReticle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/FirstPersonController/CircleReticle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/How To Use.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ModularFirstPersonController/How To Use.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerInputScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerInputScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TerrainMeshGenerator_Prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TerrainMeshGenerator_Prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Bush Leaves.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Bush Leaves.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Color Palette.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Color Palette.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Flower Leaf.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Flower Leaf.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Flower.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Flower.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Grass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Grass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Grid.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Grid.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Skybox 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Skybox 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Skybox.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Skybox.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Spruce Tree Branch.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Spruce Tree Branch.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Water.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Materials/Water.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Branch.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Branch/Branch.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Branch/Branch.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Bush.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Bush/Bush.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Bush/Bush.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Flower.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Flower/Flower.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Flower/Flower.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Grass.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Grass/Grass.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Grass/Grass.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Log.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Log/Log.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Log/Log.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Mushroom.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Mushroom/Mushrooms Patch.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Mushroom/Mushrooms Patch.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Stump.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Stump/Stump.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Stump/Stump.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Mountain.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Mountain/Mountain.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Mountain/Mountain.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 5.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 5.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 5.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 5.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks/Tiny Rock 1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks/Tiny Rock 1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks/Tiny Rock 2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks/Tiny Rock 2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks/Tiny Rock 3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks/Tiny Rock 3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks/Tiny Rock 4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks/Tiny Rock 4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks/Tiny Rock 5.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Tiny Rocks/Tiny Rock 5.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Water.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Water/Detailed Water.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Water/Detailed Water.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Water/Flat Water.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Meshes/Water/Flat Water.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Misc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Branch.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Branch/Branch.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Branch/Branch.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Bush.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Bush/Bush.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Bush/Bush.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Flower.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Flower/Flower.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Flower/Flower.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Grass.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Grass/Grass.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Grass/Grass.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Log.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Log/Log.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Log/Log.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Mushroom.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Mushroom/Mushrooms Patch.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Mushroom/Mushrooms Patch.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Stump.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Stump/Stump.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Stump/Stump.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Trees.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Trees/Spruce 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Trees/Spruce 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Trees/Spruce 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Trees/Spruce 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Mountain.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Mountain/Mountain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Mountain/Mountain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 5.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 5.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 5.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 5.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 5.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 5.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Water.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Water/Detailed Water.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Water/Detailed Water.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Water/Flat Water.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Water/Flat Water.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/Main Demo Scene PP(URP).asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/Main Demo Scene PP(URP).asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/Main Demo Scene PP.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/Main Demo Scene PP.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/Main Demo Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/Main Demo Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/OcclusionCullingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/OcclusionCullingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/OcclusionCullingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/OcclusionCullingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/Showcase Demo Scene PP(URP).asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/Showcase Demo Scene PP(URP).asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/Showcase Demo Scene PP.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/Showcase Demo Scene PP.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/Showcase Demo Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/Showcase Demo Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Terrain.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Dirt.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Dirt.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Grass.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Grass.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Rock.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Rock.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Sand.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Sand.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Terrain.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Terrain/Terrain.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Bush Leaves.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Bush Leaves.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Color Palette.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Color Palette.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Flower Leaf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Flower Leaf.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Flower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Flower.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Grass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Grass.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Grid.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Spruce Tree Branch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Spruce Tree Branch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Dirt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Dirt.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Grass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Grass.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Rock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Rock.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Sand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Sand.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TerrainShader.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TerrainShader.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainGenerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainModulation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainModulation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainShader.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainShader.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/GrassText.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/GrassText.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Burnt.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Burnt.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Clay.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Clay.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Dry01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Dry01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Dry02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Dry02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_FrozenGrass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_FrozenGrass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass03.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass03.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass04.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass04.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass06.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass06.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GrassLeafs01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GrassLeafs01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GrassLeafs02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GrassLeafs02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Ground01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Ground01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Ground02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Ground02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GroundStones01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GroundStones01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GroundStones02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GroundStones02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Lava.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Lava.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Mars.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Mars.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_MossStones.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_MossStones.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Salt.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Salt.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SandySoil.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SandySoil.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel03.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel03.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel04.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel04.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilMoss.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilMoss.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilWeeds.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilWeeds.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/SandText.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/SandText.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/SnowText.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Materials/SnowText.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/LS_Preview.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/LS_Preview.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/M_checker.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/M_checker.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Mesh_Sphere.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Mesh_Sphere.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/P_Sphere.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/P_Sphere.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview/ReflectionProbe-1.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview/ReflectionProbe-1.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/T_Checker.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Preview/T_Checker.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Burnt_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Burnt_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Burnt_e.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Burnt_e.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Burnt_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Burnt_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Burnt_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Burnt_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Clay_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Clay_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Clay_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Clay_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Clay_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Clay_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry01_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry01_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry01_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry01_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry01_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry01_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry02_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry02_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry02_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry02_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry02_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry02_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry03_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry03_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry03_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry03_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry03_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry03_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_FrozenGrass_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_FrozenGrass_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_FrozenGrass_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_FrozenGrass_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_FrozenGrass_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_FrozenGrass_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass01_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass01_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass01_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass01_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass01_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass01_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass02_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass02_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass02_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass02_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass02_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass02_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass03_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass03_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass03_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass03_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass03_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass03_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass04_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass04_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass04_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass04_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass04_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass04_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass05_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass05_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass05_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass05_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass05_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass05_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass06_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass06_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass06_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass06_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass06_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass06_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs01_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs01_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs01_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs01_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs01_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs01_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs02_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs02_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs02_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs02_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs02_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs02_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground01_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground01_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground01_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground01_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground01_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground01_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground02_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground02_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground02_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground02_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground02_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground02_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones01_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones01_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones01_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones01_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones01_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones01_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones02_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones02_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones02_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones02_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones02_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones02_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Lava_e.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Lava_e.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Lava_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Lava_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Lava_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Lava_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Mars_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Mars_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Mars_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Mars_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Mars_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Mars_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_MossStones_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_MossStones_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_MossStones_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_MossStones_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_MossStones_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_MossStones_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Salt_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Salt_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Salt_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Salt_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Salt_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Salt_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SandySoil_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SandySoil_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SandySoil_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SandySoil_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SandySoil_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SandySoil_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Snow_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Snow_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel01_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel01_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel01_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel01_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel01_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel01_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel02_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel02_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel02_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel02_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel02_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel02_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel03_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel03_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel03_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel03_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel03_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel03_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel04_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel04_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel04_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel04_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel04_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel04_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilMoss_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilMoss_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilMoss_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilMoss_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilMoss_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilMoss_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilWeeds_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilWeeds_d.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilWeeds_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilWeeds_n.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilWeeds_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilWeeds_s.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/YughuesFreeGroundMaterials_HDRP.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YughuesFreeGroundMaterials/YughuesFreeGroundMaterials_URP.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +640,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/DeltaProject\TerrainModulation.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\filip\Desktop\DeltaProject" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.39f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath F:\GitHub\DeltaProject -debugCodeOptimization" />
@@ -103,7 +704,10 @@
       <workItem from="1751538696222" duration="7146000" />
       <workItem from="1751646185849" duration="2001000" />
       <workItem from="1752052556262" duration="11952000" />
-      <workItem from="1752093290709" duration="4307000" />
+      <workItem from="1752093290709" duration="4505000" />
+      <workItem from="1752130169204" duration="11631000" />
+      <workItem from="1752229003358" duration="3537000" />
+      <workItem from="1752261877673" duration="3160000" />
     </task>
     <servers />
   </component>
